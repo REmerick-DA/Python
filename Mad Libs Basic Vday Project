@@ -1,4 +1,4 @@
--- for use in pycharm using python
+#tasked to make a quick little Valentines day themed mad libs program with user input
 
 
 color = input("Enter a color:")
