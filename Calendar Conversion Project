@@ -1,4 +1,4 @@
---tasked to create a basic calendar conversion script
+#tasked to create a basic calendar conversion script
 
 monthConversions = {
     "Jan": "January",
