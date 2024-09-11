@@ -1,4 +1,4 @@
--- tasked to create basic translator program to change vowels in a user-provided phrase to gs
+#tasked to create basic translator program to change vowels in a user-provided phrase to gs
 
 def translate(phrase):
     translation = ""
