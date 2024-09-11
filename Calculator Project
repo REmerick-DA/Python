@@ -1,4 +1,4 @@
--- tasked to create a functional calculator in python
+#tasked to create a functional calculator in python
 
 num1 = float(input("Enter first number: "))
 op = input("Enter operator: ")
@@ -17,7 +17,7 @@ else:
 
 
 
---functional exponent calculator function
+#functional exponent calculator function
 
 def raise_to_power(base_num, pow_num):
     result = 1
