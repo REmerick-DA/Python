@@ -1,6 +1,6 @@
---project to create prototype to advanced versions of a functional guessing game to showcase "while" loops
+#project to create prototype to advanced versions of a functional guessing game to showcase "while" loops
 
---Prototype:
+#Prototype:
 secret_word = "giraffe"
 guess = ""
 
@@ -9,7 +9,7 @@ while guess != secret_word:
 
 print("You win!")
 
---Advanced w/limits
+#Advanced w/limits
 secret_word = "giraffe"
 guess = ""
 guess_count = 0
