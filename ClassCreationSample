@@ -15,3 +15,31 @@ student1 = Student("Jim", "Business", 3.1, False)
 student2 = Student("Pam", "Art", 2.5, False)
 
 print(student2.gpa)
+
+
+#edited to remove probation parameter, but auto-run a function from the class into the active file to display if student is on honor roll
+
+#class file contents:
+class Student:
+    def __init__ (self, name, major, gpa):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+
+
+    def on_honor_roll(self):
+        if self.gpa >= 3.5:
+            return True
+        else:
+            return False
+
+#active file code:
+from student import Student
+
+student1 = Student("Jim", "Business", 3.1)
+student2 = Student("Pam", "Art", 2.5)
+student3 = Student("Oscar", "Accounting", 3.1)
+student4 = Student("Phyllis", "Business", 3.8)
+
+print(student1.on_honor_roll())
+
