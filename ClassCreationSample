@@ -43,3 +43,41 @@ student4 = Student("Phyllis", "Business", 3.8)
 
 print(student1.on_honor_roll())
 
+
+
+#class creation and interitance sample project
+
+#class file 1 contents:
+class Chef:
+
+    def make_chicken(self):
+        print("The chef makes a chicken")
+
+    def make_salad(self):
+        print("The chef makes a salad")
+
+    def make_special_dish(self):
+        print("The chef makes a bbq rib special")
+
+#class file 2 contents:
+from Chef import Chef
+
+class ChineseChef(Chef):
+
+    def make_special_dish(self):
+        print("The chef makes orange chicken")
+
+    def make_fried_rice(self):
+        print("The chef makes fried rice")
+
+#active file code:
+from Chef import Chef
+from ChineseChef import ChineseChef
+
+myChef = Chef()
+myChef.make_special_dish()
+
+myChineseChef = ChineseChef()
+myChineseChef.make_special_dish()
+
+
